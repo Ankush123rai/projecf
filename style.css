@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 15px solid #6859c5;
+    width: 50%;
+    height: 40%;
+}
+.container h3{
+    text-align: center;
+    padding: 10px;
+    color: grey;
+    margin:20px;
+}
+.container .joke{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+
+}
+.jokes{
+    text-align: center;  
+}
+.jokes button{
+    padding: 10px;
+    font-size: 20px;
+    margin: 30px;
+    background-color: #0fa1d1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
